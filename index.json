@@ -4,7 +4,7 @@
   "name": "CC Plugins Registry",
   "apiVersion": 1,
   "publicKey": "zEoqmhss+hYUosTeyd5FEscTcltqql1Ab5Wtq76BxjU=",
-  "updatedAt": "2026-10-30T05:26:09.833Z",
+  "updatedAt": "2026-10-30T05:36:00.182Z",
   "plugins": [
     {
       "id": "cc-cloud-providers",
@@ -20,6 +20,29 @@
         "Detects SSH username, port and keys automatically"
       ],
       "versions": [
+        {
+          "version": "1.1.5",
+          "api": "1",
+          "url": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/download/v1.1.5/cc-cloud-providers-1.1.5.tmxplug",
+          "sha256": "8cfd9466e8b315cebdd5f103413905844c223242b7739b09f0f6af7c439fc07b",
+          "signature": "rM1En9JoNlN+KniZnzt7bSmjfFLNPIKK4iP3BszHdK3q1oXhbHBVS42wnwjFNmgNVlv42r9ng3DU1qMqnZxzDA==",
+          "size": 203489,
+          "capabilities": [
+            "db:own",
+            "secrets:own",
+            "network:outbound",
+            "network:serve",
+            "ui:surface",
+            "hosts:read",
+            "hosts:write",
+            "credentials:use",
+            "credentials:write",
+            "users:impersonate",
+            "notify:send"
+          ],
+          "releaseNotesUrl": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/tag/v1.1.5",
+          "publishedAt": "2026-10-30T05:36:00.182Z"
+        },
         {
           "version": "1.1.4",
           "api": "1",
