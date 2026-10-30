@@ -15,7 +15,7 @@ https://cong-yuan.github.io/termix-registry/index.json
 
 ## Included Plugins
 
-- **Cloud Providers CC (`cloud-providers-cc`)**: Enhanced version supporting AWS Lightsail automatic default SSH key pair download, automatic credential association, real user detection and custom SSH port mapping. Can coexist with the original Cloud Providers plugin.
+- **Cloud Providers CC (`cc-cloud-providers`)**: Enhanced version supporting AWS Lightsail automatic default SSH key pair download, automatic credential association, real user detection and custom SSH port mapping. Can coexist with the original Cloud Providers plugin.
 
 ## How to Add in Termix
 

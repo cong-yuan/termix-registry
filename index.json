@@ -4,10 +4,10 @@
   "name": "CC Plugins Registry",
   "apiVersion": 1,
   "publicKey": "zEoqmhss+hYUosTeyd5FEscTcltqql1Ab5Wtq76BxjU=",
-  "updatedAt": "2026-10-30T11:39:00Z",
+  "updatedAt": "2026-10-30T11:45:00Z",
   "plugins": [
     {
-      "id": "cloud-providers-cc",
+      "id": "cc-cloud-providers",
       "name": "Cloud Providers CC",
       "description": "Add hosts from AWS Lightsail, EC2, Azure, Google Cloud, DigitalOcean and other clouds, with automatic SSH keys and user synchronization.",
       "author": "cong-yuan",
@@ -23,10 +23,10 @@
         {
           "version": "1.1.0",
           "api": "1",
-          "url": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/download/v1.1.0/cloud-providers-cc-1.1.0.tmxplug",
-          "sha256": "60dcc9f10123ed62271baaaa58fa3658f0e9a36d178c16b8381f521bca6d939e",
-          "signature": "6zxjfiuKkwP7ZFm+u8iiKBbwrAFHnDK20cgYSQXlKqmDldJFqnDh+BBqdQjMKTyk6vm+IFCBlw5QZwa88XO4CA==",
-          "size": 187490,
+          "url": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/download/v1.1.0/cc-cloud-providers-1.1.0.tmxplug",
+          "sha256": "17f0b6503e80878a6c8524df0ba9d41acb97169bfbbd5717aba1179fe54782ba",
+          "signature": "T87dzfZJgdbzs8STBcFgnyGUSppdrc0Py/QhIZuIEk1QZgGzf/NzUNymyDOMxjEWh1nc+GCxBzDVM4cLJ2rtAQ==",
+          "size": 187481,
           "capabilities": [
             "db:own",
             "secrets:own",
@@ -41,7 +41,7 @@
             "notify:send"
           ],
           "releaseNotesUrl": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/tag/v1.1.0",
-          "publishedAt": "2026-10-30T11:39:00Z"
+          "publishedAt": "2026-10-30T11:45:00Z"
         }
       ]
     }
