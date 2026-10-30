@@ -1,0 +1,49 @@
+{
+  "$schema": "https://github.com/Termix-SSH/Termix-Registry/registry-index-schema.json",
+  "registry": "cc-registry",
+  "name": "CC Plugins Registry",
+  "apiVersion": 1,
+  "publicKey": "zEoqmhss+hYUosTeyd5FEscTcltqql1Ab5Wtq76BxjU=",
+  "updatedAt": "2026-10-30T11:39:00Z",
+  "plugins": [
+    {
+      "id": "cloud-providers-cc",
+      "name": "Cloud Providers CC",
+      "description": "Add hosts from AWS Lightsail, EC2, Azure, Google Cloud, DigitalOcean and other clouds, with automatic SSH keys and user synchronization.",
+      "author": "cong-yuan",
+      "category": "Infrastructure",
+      "repository": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC",
+      "icon": "Cloud",
+      "features": [
+        "Works with AWS EC2 and Lightsail with automatic key pair download",
+        "Picks instances or syncs whole accounts on timer",
+        "Detects SSH username, port and keys automatically"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "api": "1",
+          "url": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/download/v1.1.0/cloud-providers-cc-1.1.0.tmxplug",
+          "sha256": "60dcc9f10123ed62271baaaa58fa3658f0e9a36d178c16b8381f521bca6d939e",
+          "signature": "6zxjfiuKkwP7ZFm+u8iiKBbwrAFHnDK20cgYSQXlKqmDldJFqnDh+BBqdQjMKTyk6vm+IFCBlw5QZwa88XO4CA==",
+          "size": 187490,
+          "capabilities": [
+            "db:own",
+            "secrets:own",
+            "network:outbound",
+            "network:serve",
+            "ui:surface",
+            "hosts:read",
+            "hosts:write",
+            "credentials:use",
+            "credentials:write",
+            "users:impersonate",
+            "notify:send"
+          ],
+          "releaseNotesUrl": "https://github.com/cong-yuan/Plugin-Cloud-Providers-CC/releases/tag/v1.1.0",
+          "publishedAt": "2026-10-30T11:39:00Z"
+        }
+      ]
+    }
+  ]
+}
